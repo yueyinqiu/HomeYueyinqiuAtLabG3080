@@ -1,6 +1,6 @@
 { ... }: {
-  home.username = "root";
-  home.homeDirectory = "/root";
+  home.username = "yueyinqiu";
+  home.homeDirectory = "/home/yueyinqiu";
 
   programs.home-manager.enable = true;
 
