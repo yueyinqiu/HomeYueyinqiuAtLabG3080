@@ -28,7 +28,7 @@
       ...
     }:
     {
-      homeConfigurations."yueyinqiu@lab-g3080" = home-manager.lib.homeManagerConfiguration {
+      homeConfigurations."yueyinqiu@lab-g3080-nix" = home-manager.lib.homeManagerConfiguration {
         pkgs = nixpkgs.legacyPackages.x86_64-linux;
         extraSpecialArgs = {
           vscode-server = vscode-server;
